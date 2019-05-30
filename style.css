@@ -29,19 +29,67 @@ span:nth-child(2) a{
 
 div:nth-child(2) img{
     margin-top: 100px;
-    margin-left: 500px;
+    margin-left: 550px;
+    height: 90px;
+}
+
+div:nth-child(2) span input{
+    margin-top: 10px;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #F2F2F2;
 }
 
 div:nth-child(2) span{
-    margin-top: 160px;
-    margin-left: 590px;
+    margin-left: 570px;
+    margin-right: 160px;
+
 }
 
 p input{
     margin-top: 20px;
-    margin-left: 500px;
+    margin-left: 400px;
+    margin-right: 200px;
     text-align: center;
     width: 600px;
     height: 40px;
+    border-radius: 30px;
 }
+
+
+div:nth-child(3){
+    margin-top: 350px;
+    background-color: #F2F2F2;
+    height: 30px;
+    min-width: 980px;
+    padding-top: 10px;
+    line-height: 40px;
+}
+
+div:nth-child(3) span a{
+    margin-right: 10px;
+    background-color: green;
+    
+}
+
+div:nth-child(3) div{
+    margin-left: 990px;
+    background-color: yellow; 
+    display: inline;  
+}
+
+div:nth-child(3) div a{
+    color: red;   /*#5F6368   , that's the real color*/
+    margin-right: 40px;
+
+}
+
+/* this controls the "setings" word  */
+
+div:nth-child(3) div a:nth-child(3){
+    margin-right: 2px;
+}
+
+
 
