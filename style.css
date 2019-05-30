@@ -26,3 +26,22 @@ span:nth-child(2) a{
     margin-right: 20px;
 
 }
+
+div:nth-child(2) img{
+    margin-top: 100px;
+    margin-left: 500px;
+}
+
+div:nth-child(2) span{
+    margin-top: 160px;
+    margin-left: 590px;
+}
+
+p input{
+    margin-top: 20px;
+    margin-left: 500px;
+    text-align: center;
+    width: 600px;
+    height: 40px;
+}
+
