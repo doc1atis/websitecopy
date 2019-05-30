@@ -1,0 +1,28 @@
+/* this controls the entire first row */
+div{
+    margin-top: 25px;
+}
+a{
+    text-decoration: none;
+    color: black;
+
+
+}
+
+/* this controls "About" "Store" */
+
+span:nth-child(1) a{
+    margin-left: 20px;
+}
+
+
+/* this controls Gmail and Images words, my logos. */
+
+span:nth-child(2){
+    margin-left: 1090px;
+}
+
+span:nth-child(2) a{
+    margin-right: 20px;
+
+}
